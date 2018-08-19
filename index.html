@@ -3,9 +3,9 @@
 <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 <!-- 
-var full_url = document.URL; // Get current url
-var url_array = full_url.split('=') // Split the string into an array with / as separator
-var idz = url_array[url_array.length-1];  // Get the last part of the array (-1)
+var full_url = document.URL;
+var url_array = full_url.split('=')
+var idz = url_array[url_array.length-1];
 window.onload = function(){
 var element = document.getElementById("gamelaunch");
 element.parentNode.removeChild(element);
@@ -15,7 +15,7 @@ element.parentNode.removeChild(element);
 <noscript><i>Javascript required</i></noscript>
 </head>
 <body>
-loading into game id: <script> document.write(idz); </script>
+<script> document.write(idz); </script>
 </body>
 </html>
 
